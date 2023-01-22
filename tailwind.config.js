@@ -6,6 +6,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    minWidth: {
+      card: "320px",
+    },
     extend: {
       fontFamily: {
         burtons: "burtons",
