@@ -156,7 +156,7 @@ export default function Home() {
               >
                 RECAPI
               </Link>
-              <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
+              <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
                 recapi is a place to store and share your favourite recipes.
                 Recapi was created with{" "}
                 <span className="text-teal-500">NextJS</span>,{" "}
@@ -179,7 +179,7 @@ export default function Home() {
                 >
                   COCKTAIL
                 </Link>
-                <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
+                <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
                   Cocktail was made in just one day after I discovered{" "}
                   <span className="text-teal-500">thecocktailDB</span>. It is
                   made with
@@ -189,7 +189,7 @@ export default function Home() {
                   it based on a movie poster for the movie Cocktail and its a
                   great place to go if you want recipes for cocktails. You can
                   also search by ingredient if you want to make a cocktail based
-                  on what you have availalbe.
+                  on what you have available.
                 </p>
               </div>
             </div>
@@ -209,7 +209,7 @@ export default function Home() {
                 >
                   MESS AND MORE
                 </Link>
-                <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
+                <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
                   Mess and more was made made for a client that is doing baby
                   and toddler morning classes. It is made with
                   <span className="text-teal-500"> NextJS</span>,{" "}
