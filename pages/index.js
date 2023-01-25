@@ -84,8 +84,8 @@ export default function Home() {
               <span className="text-teal-500">React</span>. I have a strong
               understanding of{" "}
               <span className="text-teal-500">Web design principles</span> and
-              can effectively translate design mockups and wireframes into fully
-              functional responsive websites.
+              can effectively translate design mockups and wire frames into
+              fully functional responsive websites.
             </p>
           </div>
           <h3 className="text-3xl py-1 mb-3 dark:text-white">My work</h3>
@@ -149,7 +149,9 @@ export default function Home() {
           <h3 className="text-3xl py-1 dark:text-white mb-3">Portfolio</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
             <div className="text-center shadow-lg border p-10 rounded-xl dark:bg-white">
-              <Image src={recapi} className="inline" />
+              <div class="relative w-80 h-[600px] mx-auto">
+                <Image src={recapi} className="object-cover" fill />
+              </div>
               <Link
                 href="https://recapi.co.uk"
                 className="text-lg font-medium pt-8 pb-2 block underline underline-offset-4"
@@ -157,7 +159,7 @@ export default function Home() {
                 RECAPI
               </Link>
               <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
-                recapi is a place to store and share your favourite recipes.
+                recapi is a place to store and share your favorite recipes.
                 Recapi was created with{" "}
                 <span className="text-teal-500">NextJS</span>,{" "}
                 <span className="text-teal-500">Typescript</span>,
@@ -171,38 +173,34 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg border p-10 rounded-xl dark:bg-white ">
-              <div className="relative">
-                <Image src={cocktail} className="inline" />
-                <Link
-                  href="https://cocktails-jmailey.vercel.app/"
-                  className="text-lg font-medium pt-8 pb-2 block underline underline-offset-4"
-                >
-                  COCKTAIL
-                </Link>
-                <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
-                  Cocktail was made in just one day after I discovered{" "}
-                  <span className="text-teal-500">thecocktailDB</span>. It is
-                  made with
-                  <span className="text-teal-500"> React</span>,{" "}
-                  <span className="text-teal-500">Typescript</span> and
-                  <span className="text-teal-500"> react-query</span>. I styled
-                  it based on a movie poster for the movie Cocktail and its a
-                  great place to go if you want recipes for cocktails. You can
-                  also search by ingredient if you want to make a cocktail based
-                  on what you have available.
-                </p>
+              <div className="relative relative w-80 h-[600px] mx-auto">
+                <Image src={cocktail} className="object-cover" fill />
               </div>
+              <Link
+                href="https://cocktails-jmailey.vercel.app/"
+                className="text-lg font-medium pt-8 pb-2 block underline underline-offset-4"
+              >
+                COCKTAIL
+              </Link>
+              <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
+                Cocktail was made in just one day after I discovered{" "}
+                <span className="text-teal-500">thecocktailDB</span>. It is made
+                with
+                <span className="text-teal-500"> React</span>,{" "}
+                <span className="text-teal-500">Typescript</span> and
+                <span className="text-teal-500"> react-query</span>. I styled it
+                based on a movie poster for the movie Cocktail and its a great
+                place to go if you want recipes for cocktails. You can also
+                search by ingredient if you want to make a cocktail based on
+                what you have available.
+              </p>
             </div>
 
             <div className="text-center shadow-lg border p-10 rounded-xl dark:bg-white ">
               <div className="">
-                <div className="relative w-full">
-                  <Image
-                    src={messandmore}
-                    className="inline object-cover"
-                    style={{ maxHeight: "629px" }}
-                  />
-                </div>
+              <div className="relative relative w-80 h-[600px] mx-auto">
+                <Image src={messandmore} className="object-cover" fill />
+              </div>
                 <Link
                   href="https://messandmore.vercel.app/"
                   className="text-lg font-medium pt-8 pb-2 block underline underline-offset-4"
@@ -219,35 +217,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-          {/* <p className="text-md py-5 leading-8 text-gray-800 md:text-xl dark:text-white">
-            In my spare time I like to create new things, like{" "}
-            <span className="text-teal-500">Recapi</span>. A place to store and
-            share your favourite recipes. Recapi was created with{" "}
-            <span className="text-teal-500">NextJS</span>,{" "}
-            <span className="text-teal-500">Typescript</span> and{" "}
-            <span className="text-teal-500">Tailwind</span>. It uses{" "}
-            <span className="text-teal-500">Auth0</span> to authenticate users
-            and <span className="text-teal-500">Cloudinary</span> to store
-            images. It uses <span className="text-teal-500">Prisma</span> as a
-            ORM and is deployed with{" "}
-            <span className="text-teal-500">Vercel</span>. With SEO in mind
-            every recipe page is rendered on the server and supports Googles{" "}
-            <span className="text-teal-500">Rich Results</span> to give users
-            the best chance of their recipe being discovered through google
-            search. Check it out here{" "}
-            <a
-              href="https://www.recapi.co.uk"
-              className="text-blue-400 underline underline-offset-4"
-            >
-              recapi.co.uk
-            </a>
-          </p>
-          <div className="max-w-xl mx-auto">
-            <Image
-              src={recapiHome}
-              alt="screenshot of recapi.co.uk home page"
-            />
-          </div> */}
 
           <div className="p-10 py-96 text-center dark:text-white">
             <h3 className="text-xl md:text-3xl py-2">
