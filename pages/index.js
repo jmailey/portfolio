@@ -148,9 +148,9 @@ export default function Home() {
         <section>
           <h3 className="text-3xl py-1 dark:text-white mb-3">Portfolio</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
-            <div className="text-center shadow-lg border p-10 rounded-xl dark:bg-white">
-              <div class="relative w-80 h-[600px] mx-auto">
-                <Image src={recapi} className="object-cover" fill />
+            <div className="text-center shadow-lg border p-4 rounded-xl dark:bg-white">
+              <div class="relative  h-[500px] mx-auto">
+                <Image src={recapi} className="object-contain" fill />
               </div>
               <Link
                 href="https://recapi.co.uk"
@@ -172,9 +172,9 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="text-center shadow-lg border p-10 rounded-xl dark:bg-white ">
-              <div className="relative relative w-80 h-[600px] mx-auto">
-                <Image src={cocktail} className="object-cover" fill />
+            <div className="text-center shadow-lg border p-4 rounded-xl dark:bg-white ">
+              <div className="relative  h-[500px] mx-auto">
+                <Image src={cocktail} className="object-contain" fill />
               </div>
               <Link
                 href="https://cocktails-jmailey.vercel.app/"
@@ -196,11 +196,11 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="text-center shadow-lg border p-10 rounded-xl dark:bg-white ">
+            <div className="text-center shadow-lg border p-4 rounded-xl dark:bg-white ">
               <div className="">
-              <div className="relative relative w-80 h-[600px] mx-auto">
-                <Image src={messandmore} className="object-cover" fill />
-              </div>
+                <div className="relative h-[500px] mx-auto">
+                  <Image src={messandmore} className="object-contain" fill />
+                </div>
                 <Link
                   href="https://messandmore.vercel.app/"
                   className="text-lg font-medium pt-8 pb-2 block underline underline-offset-4"
